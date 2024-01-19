@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let ideas: string[][] = [];
 
   // Load data from JSON file
-  fetch('IdeaGenerator.json')
+  fetch('./IdeaGenerator.json')
     .then(response => response.json())
     .then(data => {
       ideas = data;
