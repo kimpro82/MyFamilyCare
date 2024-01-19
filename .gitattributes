@@ -1,2 +1,4 @@
 *.bas linguist-language=VBA
+
 *ts.js linguist-vendored
+/TouchColorChangingTiles/*.js linguist-vendored
