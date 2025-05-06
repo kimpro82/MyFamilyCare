@@ -14,7 +14,7 @@ For my son
 - Answers provided by *Perplexity.ai* (accuracy not guaranteed)
 
 - Global
-  | 대학명 | 주요 학과/프로그램 | 특징 |
+  | 대학명 | 학과/프로그램 | 특징 |
   | --- | --- | --- |
   | Harvard University (미국) | Earth and Planetary Sciences | 세계적 고생물학 연구, 방대한 화석 컬렉션, 엄격한 커리큘럼 |
   | Stanford University (미국) | Geological Sciences | 고생물학 및 지질학 융합 연구 |
@@ -29,7 +29,7 @@ For my son
   | University of Tokyo (일본) | Earth and Planetary Science | 아시아 대표 고생물학 연구 |
 
 - Korea
-  | 대학명 | 학과/연구기관 | 주요 연구/특징 |
+  | 대학명 | 학과/연구기관 | 특징 |
   | --- | --- | --- |
   | 전남대학교 | 한국공룡연구센터, 지질학과 | 국내 대표 공룡 연구기관, 코리아노사우루스 등 신종 공룡 발굴, 공룡알·발자국·익룡 등 다양한 화석 연구 및 전시 |
   | 부경대학교 | 환경지질과학전공 | 부경고사우루스 등 한글 이름 신종 공룡 발굴, 현장 발굴 및 복원, 공룡 관련 국제학술대회 개최 |
