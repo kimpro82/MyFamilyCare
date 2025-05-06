@@ -11,7 +11,7 @@ For my son
 
 ## [Major Universities for Dinosaur Research (2025.05.06)](#list)
 
-- Answered by *Perplexity.ai* (not 100% accuracy guaranteed)
+- Answers provided by *Perplexity.ai* (accuracy not guaranteed)
 
 - Global
   | 대학명 | 주요 학과/프로그램 | 특징 |
@@ -31,20 +31,23 @@ For my son
 - Korea
   | 대학명 | 학과/연구기관 | 주요 연구/특징 |
   | --- | --- | --- |
-  | 서울대학교 | 지구환경과학부 | 이융남 교수 등 국내 대표 공룡학자 재직, 척추고생물학 및 공룡 연구, 국제적 연구성과 보유|
-  | 전남대학교 | 지질학과, 한국공룡연구센터 | 국내 최대 공룡 전문 연구기관, 코리아노사우루스 등 신종 공룡 연구·발굴, 공룡알·발자국 등 다양한 화석 연구 |
-  | 강원대학교 | 지질학과 | 미고생물학 및 척추고생물학 연구, 공룡 등 고생물 연구 교수 재직 |
-  | 충북대학교 | 지질학과 | 미고생물학 연구, 고생물 화석 연구 교수 재직 |
-  | 충남대학교 | 지질학과 | 미고생물학 연구, 고생물학 교수 재직 |
-  | 공주대학교 | 지질환경과학과 | 미고생물학 연구, 고생물학 교수 재직 |
-  | 전북대학교 | 지질학과 | 미고생물학 연구, 고생물학 교수 재직 |
+  | 전남대학교 | 한국공룡연구센터, 지질학과 | 국내 대표 공룡 연구기관, 코리아노사우루스 등 신종 공룡 발굴, 공룡알·발자국·익룡 등 다양한 화석 연구 및 전시 |
+  | 부경대학교 | 환경지질과학전공 | 부경고사우루스 등 한글 이름 신종 공룡 발굴, 현장 발굴 및 복원, 공룡 관련 국제학술대회 개최 |
+  | 서울대학교 | 지구환경과학부 | 국내 척추고생물학 및 공룡연구 선도, 국제적 연구 성과, 공룡·고생물학 교수진 재직 |
+  | 경상국립대학교 | 지질과학과 | 경남 고성 등 남해안 공룡화석지 연구, 공룡 발자국·알 등 현장 중심 연구 |
+  | 전북대학교 | 지질학과 | 공룡 및 고생물 화석 연구, 현장 발굴 및 분석 |
+  | 강원대학교 | 지질학과 | 미고생물학, 척추고생물학 연구, 공룡 등 고생물 연구 교수진 재직 |
 
 - References
+  - [QS World University Rankings by Subject 2025: Geology (QS Top Universities)](https://www.topuniversities.com/university-subject-rankings/geology)
   - [Best Universities for Paleontology in the World (EduRank, 2025.03.25)](https://edurank.org/biology/paleontology/)
+  - [Top 5 Universities for Paleontology Degrees: Best Programs Ranked (ENTECH ONLINE, 2023.12.25)](https://entechonline.com/top-5-universities-for-paleontology-degrees-best-programs-ranked/)
   - [Best Colleges for Students Interested in Dinosaurs (Paleontology) (CollegeRaptor, 2022.12.22)](https://www.collegeraptor.com/find-colleges/articles/college-comparisons/colleges-students-interested-dinosaurs-paleontology/)
-  - [지층에 숨겨진 보물 (서울대 소식, 2016.09.01)](https://www.snu.ac.kr/snunow/snu_story?md=v&bbsidx=123444)
-  - [세계 최초 한국 이름 딴 공룡 탄생 (남도일보, 2010.11.02)](http://www.namdonews.com/news/articleView.html?idxno=272582)
-  - [Re: 척추고생물학을 전공하려면... (KoreEArth NET, 2001.05.20)](http://korearth.net/bbs/board.php?bo_table=qna&wr_id=256)
+  - [지층에 남겨진 과거의 흔적을 밝히다, 한국공룡연구센터 (대한지질학회 소식지, 2024.12.20)](https://www.gskorea.or.kr/html/?pmode=webzine&smode=viewDetail&par=13&seq=5725)
+  - [부산 세계지질과학총회에 등장한 ‘부경고사우루스’ (한국대학신문, 2024.08.27)](https://news.unn.net/news/articleView.html?idxno=567674)
+  - [한국은 공룡 발자국 천국...40년간 고생물학 지평 넓혔다 (동아사이언스, 2022.12.17)](https://m.dongascience.com/news.php?idx=57598)
+  - ["한국 공룡발자국 화석이 단연 1등…세계유산 등재되도록 노력" (연합뉴스, 2022.11.11)](https://www.yna.co.kr/view/AKR20221110165300005)
+  - [[이슈초대석] 허민 전남대학교 한국공룡연구센터장, 세계 최초로 발굴된 익룡의 군집 생활을 증명하는 발자국 화석 (KBS 뉴스, 2022.07.04)](https://www.youtube.com/watch?v=slzbMNPyWnU)
 
 
 ## [Brachiosaurus (2024.11.22)](#list)
