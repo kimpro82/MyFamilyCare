@@ -6,6 +6,7 @@ Rock N' Roll Baby!
 ## For my baby
 
 ### [Dinosaur](/Dinosaur/)
+- [Major Universities for Dinosaur Research (2025.05.06)](/Dinosaur/README.md#major-universities-for-dinosaur-research-20250506)
 - [Brachiosaurus (2024.11.22)](/Dinosaur/README.md#brachiosaurus-20241122)
 
 ### [Mad Typer](/MadTyper/)
