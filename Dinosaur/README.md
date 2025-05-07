@@ -5,12 +5,54 @@ For my son
 
 ### \<List>
 
+- [Major Universities for Dinosaur Research (2025.05.06)](#major-universities-for-dinosaur-research-20250506)
 - [Brachiosaurus (2024.11.22)](#brachiosaurus-20241122)
+
+
+## [Major Universities for Dinosaur Research (2025.05.06)](#list)
+
+- Answers provided by *Perplexity.ai* (accuracy not guaranteed)
+
+- Global
+  | 대학명 | 학과/프로그램 | 특징 |
+  | --- | --- | --- |
+  | Harvard University (미국) | Earth and Planetary Sciences | 세계적 고생물학 연구, 방대한 화석 컬렉션, 엄격한 커리큘럼 |
+  | Stanford University (미국) | Geological Sciences | 고생물학 및 지질학 융합 연구 |
+  | University of California, Berkeley (미국) | Integrative Biology, Earth and Planetary Science | UCMP(캘리포니아 고생물학 박물관) 소속, 실습 중심 교육 |
+  | University of Chicago (미국) | Organismal Biology and Anatomy, Geophysical Sciences | 척추고생물학, 맞춤형 대학원 과정, 최신 연구시설 |
+  | Yale University (미국) | Geology & Geophysics | 5백만 점 이상의 화석 소장, 다양한 연구 주제 |
+  | University of Michigan, Ann Arbor (미국) | Earth and Environmental Sciences | 학부·대학원 고생물학 과정, 현장 실습 |
+  | University of Oxford (영국) | Earth Sciences | 유럽 내 고생물학 연구 중심지 |
+  | University of Cambridge (영국) | Earth Sciences | 고생물학 및 지질학 연구 전통 |
+  | University of Toronto (캐나다) | Earth Sciences | 북미 대표 고생물학 연구 |
+  | University of Alberta (캐나다) | Biological Sciences | 온라인 고생물학 과정 제공, 세계적 연구진 |
+  | University of Tokyo (일본) | Earth and Planetary Science | 아시아 대표 고생물학 연구 |
+
+- Korea
+  | 대학명 | 학과/연구기관 | 특징 |
+  | --- | --- | --- |
+  | 전남대학교 | 한국공룡연구센터, 지질학과 | 국내 대표 공룡 연구기관, 코리아노사우루스 등 신종 공룡 발굴, 공룡알·발자국·익룡 등 다양한 화석 연구 및 전시 |
+  | 부경대학교 | 환경지질과학전공 | 부경고사우루스 등 한글 이름 신종 공룡 발굴, 현장 발굴 및 복원, 공룡 관련 국제학술대회 개최 |
+  | 서울대학교 | 지구환경과학부 | 국내 척추고생물학 및 공룡연구 선도, 국제적 연구 성과, 공룡·고생물학 교수진 재직 |
+  | 경상국립대학교 | 지질과학과 | 경남 고성 등 남해안 공룡화석지 연구, 공룡 발자국·알 등 현장 중심 연구 |
+  | 전북대학교 | 지질학과 | 공룡 및 고생물 화석 연구, 현장 발굴 및 분석 |
+  | 강원대학교 | 지질학과 | 미고생물학, 척추고생물학 연구, 공룡 등 고생물 연구 교수진 재직 |
+
+- References
+  - [QS World University Rankings by Subject 2025: Geology (QS Top Universities)](https://www.topuniversities.com/university-subject-rankings/geology)
+  - [Best Universities for Paleontology in the World (EduRank, 2025.03.25)](https://edurank.org/biology/paleontology/)
+  - [Top 5 Universities for Paleontology Degrees: Best Programs Ranked (ENTECH ONLINE, 2023.12.25)](https://entechonline.com/top-5-universities-for-paleontology-degrees-best-programs-ranked/)
+  - [Best Colleges for Students Interested in Dinosaurs (Paleontology) (CollegeRaptor, 2022.12.22)](https://www.collegeraptor.com/find-colleges/articles/college-comparisons/colleges-students-interested-dinosaurs-paleontology/)
+  - [지층에 남겨진 과거의 흔적을 밝히다, 한국공룡연구센터 (대한지질학회 소식지, 2024.12.20)](https://www.gskorea.or.kr/html/?pmode=webzine&smode=viewDetail&par=13&seq=5725)
+  - [부산 세계지질과학총회에 등장한 ‘부경고사우루스’ (한국대학신문, 2024.08.27)](https://news.unn.net/news/articleView.html?idxno=567674)
+  - [한국은 공룡 발자국 천국...40년간 고생물학 지평 넓혔다 (동아사이언스, 2022.12.17)](https://m.dongascience.com/news.php?idx=57598)
+  - ["한국 공룡발자국 화석이 단연 1등…세계유산 등재되도록 노력" (연합뉴스, 2022.11.11)](https://www.yna.co.kr/view/AKR20221110165300005)
+  - [[이슈초대석] 허민 전남대학교 한국공룡연구센터장, 세계 최초로 발굴된 익룡의 군집 생활을 증명하는 발자국 화석 (KBS 뉴스, 2022.07.04)](https://www.youtube.com/watch?v=slzbMNPyWnU)
 
 
 ## [Brachiosaurus (2024.11.22)](#list)
 
-- My son really love it
+- My son really loves it
 
   ![Brachiosaurus](./Images/brachiosaurus.gif)
 
