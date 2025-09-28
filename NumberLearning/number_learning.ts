@@ -11,6 +11,8 @@ async function loadSounds(): Promise<NumberSounds> {
 }
 
 function speak(text: string) {
+  // 기존 음성 즉시 중지
+  window.speechSynthesis.cancel();
   const utter = new SpeechSynthesisUtterance(text);
   utter.lang = 'ko-KR';
   utter.rate = 0.7;
