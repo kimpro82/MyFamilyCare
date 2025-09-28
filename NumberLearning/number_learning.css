@@ -1,0 +1,34 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8f8ff;
+  margin: 0;
+  padding: 0;
+}
+#title {
+  text-align: center;
+  margin-top: 32px;
+  font-size: 2.5rem;
+  color: #333;
+}
+#grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 120px);
+  gap: 24px;
+  max-width: 600px;
+  margin: 48px auto 0 auto;
+}
+.number-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  background: #e0e7ff;
+  border-radius: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s;
+}
+.number-cell:active {
+  background: #b6c0ff;
+}
