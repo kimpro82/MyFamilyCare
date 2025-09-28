@@ -5,10 +5,10 @@ For my son
 
 ### \<List>
 
-- [Number Learning v0.1(2025.09.28)](#number-learning-v0120250928)
+- [Number Learning v0.1 (2025.09.28)](#number-learning-v01-20250928)
 
 
-## [Number Learning v0.1(2025.09.28)](#list)
+## [Number Learning v0.1 (2025.09.28)](#list)
 
 - A web page for my son to learn numbers
 
