@@ -1,14 +1,14 @@
 /* Footer 스타일 */
 .page-footer {
   width: 100%;
-  margin-top: 6vh;
+  margin-top: 3vh;
   text-align: center;
   font-size: 1.1em;
   color: #555;
   opacity: 0.8;
 }
 .footer-hr {
-  margin: 2em 0 1em 0;
+  margin: 1.2em 0 0.7em 0;
   border: none;
   border-top: 1.5px solid #dbeafe;
 }
@@ -27,6 +27,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
+  overflow-y: hidden;
 }
 
 #title {
