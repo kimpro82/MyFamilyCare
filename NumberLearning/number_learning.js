@@ -1,5 +1,5 @@
-// ...기본 타입스크립트 코드...
-// 숫자 셀 생성, 이벤트 처리, Web Speech API 음성 출력, JSON 데이터 로딩
+// Basic TypeScript code for number learning web app
+// Generates number cells, handles events, outputs speech using Web Speech API, loads sound data from JSON
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -37,6 +37,10 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 var _this = this;
+/**
+ * Loads number sound data from JSON file
+ * @returns Promise resolving to NumberSounds object
+ */
 function loadSounds() {
     return __awaiter(this, void 0, void 0, function () {
         var res;
@@ -51,14 +55,22 @@ function loadSounds() {
         });
     });
 }
+/**
+ * Speaks the given text using Web Speech API (Korean)
+ * Stops any previous speech immediately
+ * @param text - Korean pronunciation to speak
+ */
 function speak(text) {
-    // 기존 음성 즉시 중지
-    window.speechSynthesis.cancel();
+    window.speechSynthesis.cancel(); // Stop previous speech immediately
     var utter = new SpeechSynthesisUtterance(text);
     utter.lang = 'ko-KR';
     utter.rate = 0.7;
     window.speechSynthesis.speak(utter);
 }
+/**
+ * Creates the number grid and attaches event listeners for speech output
+ * @param sounds - NumberSounds mapping for pronunciation
+ */
 function createGrid(sounds) {
     var grid = document.getElementById('grid');
     if (!grid)
@@ -76,6 +88,7 @@ function createGrid(sounds) {
         _loop_1(i);
     }
 }
+// Initialize app after DOM is loaded
 window.addEventListener('DOMContentLoaded', function () { return __awaiter(_this, void 0, void 0, function () {
     var sounds;
     return __generator(this, function (_a) {
