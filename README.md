@@ -5,6 +5,9 @@ Rock N' Roll Baby!
 
 ## For my baby
 
+### [Number Learning](/NumberLearning/)
+- [Number Learning v0.1(2025.09.28)](/NumberLearning/README.md#number-learning-v0120250928)
+
 ### [Dinosaur](/Dinosaur/)
 - [Major Universities for Dinosaur Research (2025.05.06)](/Dinosaur/README.md#major-universities-for-dinosaur-research-20250506)
 - [Brachiosaurus (2024.11.22)](/Dinosaur/README.md#brachiosaurus-20241122)
