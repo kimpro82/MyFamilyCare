@@ -1,3 +1,25 @@
+/* Footer 스타일 */
+.page-footer {
+  width: 100%;
+  margin-top: 6vh;
+  text-align: center;
+  font-size: 1.1em;
+  color: #555;
+  opacity: 0.8;
+}
+.footer-hr {
+  margin: 2em 0 1em 0;
+  border: none;
+  border-top: 1.5px solid #dbeafe;
+}
+.footer-link {
+  color: #3b4b7c;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+.footer-link:hover {
+  color: #2d3a5a;
+}
 body {
   font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
   background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
