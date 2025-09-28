@@ -52,6 +52,8 @@ function loadSounds() {
     });
 }
 function speak(text) {
+    // 기존 음성 즉시 중지
+    window.speechSynthesis.cancel();
     var utter = new SpeechSynthesisUtterance(text);
     utter.lang = 'ko-KR';
     utter.rate = 0.7;
