@@ -1,4 +1,4 @@
-/* Footer 스타일 */
+/* Footer styles */
 .page-footer {
   width: 100%;
   margin-top: 3vh;
@@ -7,20 +7,32 @@
   color: #555;
   opacity: 0.8;
 }
+/**
+ * Footer horizontal rule style
+ */
 .footer-hr {
   margin: 1.2em 0 0.7em 0;
   border: none;
   border-top: 1.5px solid #dbeafe;
 }
+/**
+ * Footer GitHub link style
+ */
 .footer-link {
   color: #3b4b7c;
   text-decoration: underline;
   transition: color 0.2s;
 }
+/**
+ * Footer GitHub link hover style
+ */
 .footer-link:hover {
   color: #2d3a5a;
 }
 
+/**
+ * Main body style
+ */
 body {
   font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
   background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
@@ -30,6 +42,9 @@ body {
   overflow-y: hidden;
 }
 
+/**
+ * Page title style
+ */
 #title {
   text-align: center;
   margin-top: 4vh;
@@ -40,6 +55,9 @@ body {
   text-shadow: 0 0.2em 0.8em rgba(160,180,255,0.12);
 }
 
+/**
+ * Number grid style
+ */
 #grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -50,6 +68,9 @@ body {
   padding: 0 3vw;
 }
 
+/**
+ * Number cell style
+ */
 .number-cell {
   display: flex;
   align-items: center;
@@ -65,6 +86,9 @@ body {
   transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
   user-select: none;
 }
+/**
+ * Number cell hover/active style
+ */
 .number-cell:hover, .number-cell:active {
   background: #e0e7ff;
   transform: scale(1.07);
@@ -72,6 +96,9 @@ body {
   border-color: #a5b4fc;
 }
 
+/**
+ * Responsive style for small screens (max-width: 600px)
+ */
 @media (max-width: 600px) {
   #grid {
     grid-template-columns: repeat(2, 1fr);
@@ -90,6 +117,9 @@ body {
   }
 }
 
+/**
+ * Responsive style for very small screens (max-width: 400px)
+ */
 @media (max-width: 400px) {
   #grid {
     grid-template-columns: 1fr;
