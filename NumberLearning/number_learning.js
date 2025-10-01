@@ -1,4 +1,5 @@
 // Basic TypeScript code for number learning web app
+// 2025.09.28
 // Generates number cells, handles events, outputs speech using Web Speech API, loads sound data from JSON
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
