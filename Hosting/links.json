@@ -1,7 +1,14 @@
 [
     {
+        "category": "Baby",
+        "title": "Number Learning for Babies v0.1",
+        "date": "2025.09.28",
+        "url": "../NumberLearning/number_learning.html",
+        "comment": "<img src=\"../NumberLearning/Images/NumberLearning_v0.1.png\" width=100%>"
+    },
+    {
         "category": "Sister",
-        "title": "Web Lession 1 : HTML ",
+        "title": "Web Lession 1 : HTML",
         "date": "2024.12.23",
         "url": "../WebLessons/lesson_01.html",
         "comment": "<img src=\"../WebLessons/Images/WebLesson_01.png\" width=100%>"
