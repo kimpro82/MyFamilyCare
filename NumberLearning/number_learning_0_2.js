@@ -1,6 +1,8 @@
-// number_learning_0_2.ts
-// Version: 0.2 — Use number_sounds_0_2.json and pointer events; numbers 1..20
-// 2025-11-05
+// Basic TypeScript code for number learning web app
+// Version 0.2 — numbers 1..20, pointer events, reserves footer space when sizing
+// 2025.11.05
+// Generates number cells, handles pointer events, outputs speech using Web Speech API,
+// loads sound data from `number_sounds_0_2.json` and computes responsive cell sizes
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -39,7 +41,8 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 var _this = this;
 /**
- * Loads number sound data from JSON file (the 0_2 variant)
+ * Loads number sound data from JSON file (0_2 variant)
+ * @returns Promise resolving to NumberSounds object
  */
 function loadSounds() {
     return __awaiter(this, void 0, void 0, function () {
@@ -56,11 +59,13 @@ function loadSounds() {
     });
 }
 /**
- * Speak text using Web Speech API (Korean). Cancels any previous speech.
+ * Speaks the given text using Web Speech API (Korean).
+ * Cancels any previous speech immediately.
+ * @param text - Korean pronunciation to speak
  */
 function speak(text) {
     try {
-        window.speechSynthesis.cancel();
+        window.speechSynthesis.cancel(); // Stop previous speech immediately
     }
     catch (e) {
         // ignore
@@ -71,7 +76,10 @@ function speak(text) {
     window.speechSynthesis.speak(utter);
 }
 /**
- * Create grid 1..20 and attach unified pointer event to avoid double play
+ * Creates the number grid (1..20) and attaches a unified pointer event to avoid duplicate
+ * audio playback on touch devices. Also computes responsive cell height so the grid fits
+ * into the viewport while reserving footer space.
+ * @param sounds - Mapping of number string -> Korean pronunciation
  */
 function createGrid(sounds) {
     var grid = document.getElementById('grid');
@@ -99,6 +107,12 @@ function createGrid(sounds) {
         _loop_1(i);
     }
     // After grid is populated, compute cell size so all rows fit the viewport
+    /**
+     * Convert a CSS length string to pixels. Supports px, vw, vh, rem and %.
+     * @param val - CSS length string (e.g. '14vh', '2rem', '10%')
+     * @param relativeToWidth - when '%' is used, compute percentage relative to grid width (true)
+     * @returns pixel equivalent as number
+     */
     function toPx(val, relativeToWidth) {
         if (relativeToWidth === void 0) { relativeToWidth = true; }
         if (!val)
@@ -119,6 +133,12 @@ function createGrid(sounds) {
         }
         return parseFloat(val) || 0;
     }
+    /**
+     * Adjusts the CSS variable --cell-height so the grid with `columns` columns
+     * fills the available viewport height while reserving space for the footer.
+     * It enforces a rectangular shape using `heightRatio` and guards updates
+     * against tiny changes to avoid layout thrash.
+     */
     function adjustCellSize() {
         var items = gridEl.children.length;
         var columns = 5;
