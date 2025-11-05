@@ -1,25 +1,36 @@
-// number_learning_0_2.ts
-// Version: 0.2 — Use number_sounds_0_2.json and pointer events; numbers 1..20
-// 2025-11-05
+// Basic TypeScript code for number learning web app
+// Version 0.2 — numbers 1..20, pointer events, reserves footer space when sizing
+// 2025.11.05
+// Generates number cells, handles pointer events, outputs speech using Web Speech API,
+// loads sound data from `number_sounds_0_2.json` and computes responsive cell sizes
 
+/**
+ * Interface for number sound mapping
+ * key: number as string, value: Korean pronunciation
+ */
 interface NumberSounds {
   [key: string]: string;
 }
 
+
 /**
- * Loads number sound data from JSON file (the 0_2 variant)
+ * Loads number sound data from JSON file (0_2 variant)
+ * @returns Promise resolving to NumberSounds object
  */
 async function loadSounds(): Promise<NumberSounds> {
   const res = await fetch('number_sounds_0_2.json');
   return await res.json();
 }
 
+
 /**
- * Speak text using Web Speech API (Korean). Cancels any previous speech.
+ * Speaks the given text using Web Speech API (Korean).
+ * Cancels any previous speech immediately.
+ * @param text - Korean pronunciation to speak
  */
 function speak(text: string) {
   try {
-    window.speechSynthesis.cancel();
+    window.speechSynthesis.cancel(); // Stop previous speech immediately
   }
   catch (e) {
     // ignore
@@ -30,8 +41,12 @@ function speak(text: string) {
   window.speechSynthesis.speak(utter);
 }
 
+
 /**
- * Create grid 1..20 and attach unified pointer event to avoid double play
+ * Creates the number grid (1..20) and attaches a unified pointer event to avoid duplicate
+ * audio playback on touch devices. Also computes responsive cell height so the grid fits
+ * into the viewport while reserving footer space.
+ * @param sounds - Mapping of number string -> Korean pronunciation
  */
 function createGrid(sounds: NumberSounds) {
   const grid = document.getElementById('grid');
@@ -56,8 +71,14 @@ function createGrid(sounds: NumberSounds) {
     grid.appendChild(cell);
   }
   // After grid is populated, compute cell size so all rows fit the viewport
+  /**
+   * Convert a CSS length string to pixels. Supports px, vw, vh, rem and %.
+   * @param val - CSS length string (e.g. '14vh', '2rem', '10%')
+   * @param relativeToWidth - when '%' is used, compute percentage relative to grid width (true)
+   * @returns pixel equivalent as number
+   */
   function toPx(val: string, relativeToWidth = true) {
-  if (!val) return 0;
+    if (!val) return 0;
     val = val.trim();
     if (val.endsWith('px')) return parseFloat(val);
     if (val.endsWith('vw')) return parseFloat(val) * window.innerWidth / 100;
@@ -66,18 +87,25 @@ function createGrid(sounds: NumberSounds) {
     if (val.endsWith('%')) {
       // percentage relative to grid width if requested
       const pct = parseFloat(val) / 100;
-  return pct * (relativeToWidth ? gridEl.clientWidth : window.innerHeight);
+      return pct * (relativeToWidth ? gridEl.clientWidth : window.innerHeight);
     }
     return parseFloat(val) || 0;
   }
 
+
+  /**
+   * Adjusts the CSS variable --cell-height so the grid with `columns` columns
+   * fills the available viewport height while reserving space for the footer.
+   * It enforces a rectangular shape using `heightRatio` and guards updates
+   * against tiny changes to avoid layout thrash.
+   */
   function adjustCellSize() {
-  const items = gridEl.children.length;
+    const items = gridEl.children.length;
     const columns = 5;
     const rows = Math.max(1, Math.ceil(items / columns));
 
-  const style = getComputedStyle(gridEl);
-  const gapVal = style.columnGap || style.gap || '0px';
+    const style = getComputedStyle(gridEl);
+    const gapVal = style.columnGap || style.gap || '0px';
     const gapPx = toPx(gapVal);
 
     // Available width for grid content
@@ -89,18 +117,18 @@ function createGrid(sounds: NumberSounds) {
     const gridTop = gridEl.getBoundingClientRect().top;
     const availableHeight = Math.max(0, window.innerHeight - gridTop - reservedFooterPx - 12); // small padding
 
-  const columnWidth = (gridWidth - gapPx * (columns - 1)) / columns;
-  const cellHeightLimit = (availableHeight - gapPx * (rows - 1)) / rows;
+    const columnWidth = (gridWidth - gapPx * (columns - 1)) / columns;
+    const cellHeightLimit = (availableHeight - gapPx * (rows - 1)) / rows;
 
-  // Make cells horizontally rectangular by using a height ratio.
-  // heightRatio is the fraction of width that determines height (e.g. 0.6)
-  const heightRatio = 0.6;
-  // To ensure the height does not exceed available vertical space,
-  // the column width must satisfy: width * heightRatio <= cellHeightLimit
-  const maxAllowedWidthFromHeight = cellHeightLimit / heightRatio;
-  const finalWidth = Math.max(24, Math.floor(Math.min(columnWidth, maxAllowedWidthFromHeight)));
+    // Make cells horizontally rectangular by using a height ratio.
+    // heightRatio is the fraction of width that determines height (e.g. 0.6)
+    const heightRatio = 0.6;
+    // To ensure the height does not exceed available vertical space,
+    // the column width must satisfy: width * heightRatio <= cellHeightLimit
+    const maxAllowedWidthFromHeight = cellHeightLimit / heightRatio;
+    const finalWidth = Math.max(24, Math.floor(Math.min(columnWidth, maxAllowedWidthFromHeight)));
 
-  // Set the CSS variable for cell height; width is 100% of column.
+    // Set the CSS variable for cell height; width is 100% of column.
     const cellHeightPx = Math.max(20, Math.floor(finalWidth * heightRatio));
     // Only update the CSS variable if it changed to avoid layout thrash
     const prev = gridEl.style.getPropertyValue('--cell-height');
