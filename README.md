@@ -6,6 +6,7 @@ Rock N' Roll Baby!
 ## For my baby
 
 ### [Number Learning](/NumberLearning/)
+- [Number Learning v0.2 (2025.11.05)](/NumberLearning/README.md#number-learning-v02-20251105)
 - [Number Learning v0.1 (2025.09.28)](/NumberLearning/README.md#number-learning-v01-20250928)
 
 ### [Dinosaur](/Dinosaur/)
