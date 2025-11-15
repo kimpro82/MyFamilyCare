@@ -11,13 +11,13 @@ For my son
 
 ## [Number Learning v0.2 (2025.11.05)](#list)
 
-- Partial feature updates and bug fixes from v0.1
+- Partial feature updates and bug fixes since v0.1
 
   ![Number Learning v0.2](./Images/NumberLearning_v0.2.png)
 
 - Completed tasks
-  - Expanded the number range from 1–10 to 1–20  
-  - Adjusted the audio to play only once per touch
+  - Expanded the number range from *1–10* to *1–20*  
+  - (Bug fix) Adjusted the audio so it plays only once per touch
 
 - Future improvements
   - Add a number range selection feature  
