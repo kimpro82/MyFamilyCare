@@ -5,7 +5,25 @@ For my son
 
 ### \<List>
 
+- [Number Learning v0.2 (2025.11.05)](#number-learning-v02-20251105)
 - [Number Learning v0.1 (2025.09.28)](#number-learning-v01-20250928)
+
+
+## [Number Learning v0.2 (2025.11.05)](#list)
+
+- Partial feature updates and bug fixes since v0.1
+
+  ![Number Learning v0.2](./Images/NumberLearning_v0.2.png)
+
+- Completed tasks
+  - Expanded the number range from *1–10* to *1–20*  
+  - (Bug fix) Adjusted the audio so it plays only once per touch
+
+- Future improvements
+  - Add a number range selection feature  
+  - Introduce game elements, e.g., a quiz mode (listen to the pronunciation and guess the number)  
+  - Add visual representations of numbers  
+  - Add a background image
 
 
 ## [Number Learning v0.1 (2025.09.28)](#list)

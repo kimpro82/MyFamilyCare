@@ -1,6 +1,13 @@
 [
     {
         "category": "Baby",
+        "title": "Number Learning for Babies v0.2",
+        "date": "2025.11.05",
+        "url": "../NumberLearning/number_learning_0_2.html",
+        "comment": "<img src=\"../NumberLearning/Images/NumberLearning_v0.2.png\" width=100%>"
+    },
+    {
+        "category": "Baby",
         "title": "Number Learning for Babies v0.1",
         "date": "2025.09.28",
         "url": "../NumberLearning/number_learning.html",
